@@ -39,5 +39,5 @@ function FeaturedMovie({ movie = {}, isCompact = true }) {
   );
 }
 
-//export { FeatureMovieLoading } from "./loading";
-export default  FeaturedMovie ;
+export { FeatureMovieLoading } from "./loading";
+export { FeaturedMovie };

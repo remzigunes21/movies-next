@@ -1,15 +1,17 @@
-import Link from 'next/link'
-import React from 'react'
-import styles from './styles.module.css'
+import React from "react";
+import Link from "next/link";
 
-const Footer = () => {
+import styles from "./styles.module.css";
+
+function Footer() {
   return (
     <footer className={styles.footer}>
-    Made with ❤️ by&nbsp;
-    <Link href="https://twitter.com/Ramiz36996727" target="_blank">
-      Remzi Güneş
-    </Link>
-  </footer>  )
+      Made with ❤️ by&nbsp;
+      <Link href="https://twitter.com/_mehmetpekcan" target="_blank">
+        Mehmet Pekcan
+      </Link>
+    </footer>
+  );
 }
 
-export default Footer
+export { Footer };
